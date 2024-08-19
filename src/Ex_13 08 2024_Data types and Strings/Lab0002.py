@@ -24,3 +24,19 @@ print(math.pi)
 Area = 3.14 * (radius**2)
 print("The Area of the Circle is", Area)
 print(f"The Area of Circle \n {Area:.1f}")
+
+
+
+### Task #5
+
+- Create a program that takes two numbers as input and prints
+ whether the first number is greater than, less than, or equal to the second number.
+
+num1 = int(input("Enter the num1"))
+num2 = int(input("Enter the num2"))
+if num1 > num2:
+    print("Number 1 is greater than Number 2")
+elif num1 == num2:
+    print("Number 1 and 2 is equal ")
+else:
+    print("Number 2 is greater than Number 1 ")
