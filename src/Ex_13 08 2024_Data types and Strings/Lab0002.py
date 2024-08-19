@@ -40,3 +40,22 @@ elif num1 == num2:
     print("Number 1 and 2 is equal ")
 else:
     print("Number 2 is greater than Number 1 ")
+
+
+
+
+### Task #6
+
+- Develop a Python script that calculates the square and cube of a given number.
+
+num1 = int(input("Enter number 1 to calculate Square\n"))
+num2 = int(input("Enter number 2 to calculate Cube 1\n"))
+
+square = num1*num1
+cube = num2*num2*num2
+
+print(f"The Square of given number 1 is {square}")
+print(f"The Cube of given number  2 is {cube}")
+
+print(f"The Square of given number 1 is {num1**2}")
+print(f"The Cube of given number 1 is {num1**3}")
