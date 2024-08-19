@@ -1,5 +1,30 @@
 #Home work of 17 Aug
 
+Task #3
+Explain the difference between the = operator and the == operator in Python.
+
+= operator is assignment operator
+Eg : a = 5 b=5
+==Operator is a comparison operator
+Usually compare the value of a and b
+
+What does the ** operator do in Python, and how is it used?
+**  Refers to power of any variable or value
+num = 2**3
+Ans 2*2*2 = 8
+print (num)
+
+
+What does the ^ operator do in Python, and in what context is it commonly used?
+The ^ operator compares each bit and set it to 1 if only value is 1.
+else the value is set to zero if both are one or both are 0.
+#1*1=0
+#1*0=1
+#0*1=1
+#0*0=0
+
+
+
 Write a Python program to calculate the area of a circle given its radius using the formula ``` area=π×r^2``` ( Take pie as 3.14)
 
 import math
